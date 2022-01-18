@@ -1056,7 +1056,7 @@ audio {
 	100% {
 		-ms-transform:translate(0px,0px);
 	}
-}o
+}
 @keyframes bannar_come {
 	0%{
 		transform:translate(0px,-1000px);
@@ -1074,7 +1074,37 @@ audio {
 		transform:translate(0px,0px);
 	}
 }
-
+@media only screen and (max-width: 600px) { 
+	.balloons{
+		width: 50px !important;
+		height: 100px !important;
+		background-size: 50px 100px !important;
+	}
+	.balloons h2 {
+		font-size: 30px !important;
+	}
+	#b11 {
+		left: 30px !important;
+	}
+	#b22 {
+		left: 90px !important;
+	}
+	#b33 {
+		left: 150px !important;
+	}
+	#b44 {
+		left: 210px !important;
+	}
+	#b55 {
+		left: 270px !important;
+	}
+	#b66 {
+		left: 330px !important;
+	}
+	#b77 {
+		left: 390px !important;
+	}
+}
 .balloons {
 	position: fixed;
 	bottom: -200px;
@@ -1278,6 +1308,7 @@ audio {
 	color: #C4515C;
 	text-shadow: 2px 2px 2px #FFF;
 	display: none;
+	text-align: center;
 	font-weight: bold;
 }
 
